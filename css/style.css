@@ -1,0 +1,155 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Article */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #1b1b1b;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.article-sportif p {
+    color: #ffffff;
+}
+
+.article-sportif h1 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.article-sportif .date {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.article-sportif figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.article-sportif figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.article-sportif figure figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.article-sportif h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.article-sportif blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    border-left: 5px solid #f39c12;
+    font-style: italic;
+    color: #555;
+}
+
+/* Statistiques */
+.statistiques {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.statistiques h3 {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.statistiques ul {
+    list-style: none;
+    padding: 0;
+}
+
+.statistiques ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+footer nav ul li a:hover {
+    color: #f39c12;
+}
