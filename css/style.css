@@ -153,3 +153,53 @@ footer nav ul li a {
 footer nav ul li a:hover {
     color: #f39c12;
 }
+/* Media Query pour les écrans de 768px ou moins (tablettes et téléphones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Ajuste la taille de la police */
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column; /* Empile les éléments verticalement */
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column; /* Navigation verticale */
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0; /* Ajoute de l'espacement entre les liens */
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .article-sportif figure img {
+        max-width: 100%; /* Assure que les images ne dépassent pas la largeur de l'écran */
+        height: auto;
+    }
+
+    .statistiques {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+/* Media Query pour les écrans de 480px ou moins (petits téléphones) */
+@media (max-width: 480px) {
+    header nav ul li {
+        margin: 5px 0; /* Réduit l'espacement pour les très petits écrans */
+    }
+
+    .article-sportif h1 {
+        font-size: 1.5em; /* Réduit la taille des titres */
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
